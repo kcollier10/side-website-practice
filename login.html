@@ -5,35 +5,35 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register</title>
-    <style>
-
-    </style>
+    <title>Login</title>
 </head>
 <body>
+<header>
+
+</header>
+<main>
     <section id="login">
         <form method="POST" action="https://request-inspector.glitch.me/">
             <label for="username">Username</label>
             <input id="username" name="username" type="text" required>
             <br>
-             <label for="email">User Email</label>
+            <label for="email">User Email</label>
             <input id="email" name="email" type="text" required>
             <br>
-             <label for="password">Password</label>
+            <label for="password">Password</label>
             <input id="password" name="password" type="password" required>
             <br>
-             <label for="confirm">Confirm Password</label>
-            <input id="confirm" name="confirm" type="password" required>
-            <br>
+            <input type="checkbox" name="loggedin" id="loggedin" value="loggedin" checked>
+            <label for="loggedin">Keep me logged in for two weeks.</label>
 
-            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter" checked>
-            <label for="newsletter">Sign me up for the newsletter!</label><br>
-
-            <button>Create new account!</button>
+            <button>Login</button>
         </form>
     </section>
 
+</main>
+<footer>
 
+</footer>
 
 </body>
 </html>
